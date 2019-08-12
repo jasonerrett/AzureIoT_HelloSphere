@@ -6,34 +6,6 @@
 - Open Github Desktop, click File -> Clone Repository -> Url tab -> Paste the url into the box -> specify the local folder to clone into -> hit **'Clone'**
 - If you'd like more information... [Github Tutorial](https://lab.github.com/githubtraining/paths/first-day-on-github)
 
-## Azure Services common in IoT Architectures
-- Ingestion
-    - IoT Hub
-    - Event Hubs
-    - IoT Central (also has visualization, analytics, and control)
-- Storage
-    - Azure Storage
-    - CosmosDB
-- Analytics
-    - Stream Analytics
-    - Time Series Insights
-    - Server-less Functions
-- Integration & Visualization
-    - Logic Apps
-    - Power BI
-- Disconnected Scenarios
-    - IoT Edge
-    - Container Registry
-- Artification Intelligence
-    - Cognitive Services
-- 3rd-Party and Open source
-    - SendGrid
-    - Kafka
-    - Spark
-    - Storm
-    - Notebooks
-- Example Architecture Diagram
-
 ## Getting Started with Azure Sphere
 - Hardware Overview
 - Optional Peripherals
@@ -45,6 +17,36 @@
 ## Connecting the Sphere Devkit to Azure IoT Hub
 
 ## Real-time Processing / Real-time Action
+
+## Azure Services Common in IoT Architectures
+- Example Architecture Diagram
+- Device Registration / Ingestion
+    - [IoT Hub](https://docs.microsoft.com/en-us/azure/iot-hub/about-iot-hub)
+    - [IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/overview-iot-central) *Note: also has visualization, analytics, etc.*
+    - [Device Provisioning Service](https://docs.microsoft.com/en-us/azure/iot-dps/about-iot-dps)
+    - [Event Hubs](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-about)
+- Storage
+    - [Azure Storage](https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction)
+    - [Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction)
+- Analytics
+    - [Stream Analytics](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction)
+    - [Time Series Insights](https://docs.microsoft.com/en-us/azure/time-series-insights/time-series-insights-update-overview)
+    - [Server-less Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview)
+- Integration & Visualization
+    - [Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview)
+    - [Power BI](https://docs.microsoft.com/en-us/power-bi/power-bi-overview)
+- Disconnected Scenarios
+    - [IoT Edge](https://docs.microsoft.com/en-us/azure/iot-edge/about-iot-edge)
+    - [Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-intro)
+- Artification Intelligence
+    - [Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/)
+- 3rd-Party and Open source
+    - [SendGrid](https://docs.microsoft.com/en-us/azure/sendgrid-dotnet-how-to-send-email)
+    - [Kafka](https://docs.microsoft.com/en-us/azure/hdinsight/kafka/apache-kafka-introduction)
+    - [Spark](https://docs.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-overview)
+    - [Storm](https://docs.microsoft.com/en-us/azure/hdinsight/storm/apache-storm-overview)
+    - [Notebooks](https://docs.microsoft.com/en-us/azure/notebooks/azure-notebooks-overview)
+    - Bring-your-Own on [Virtual Machines](https://azure.microsoft.com/en-us/services/virtual-machines/)
 
 ## Azure Solution Accelerators
 
