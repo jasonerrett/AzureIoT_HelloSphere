@@ -1,4 +1,4 @@
-# AzureIoT - Getting Started with Sphere
+# Azure IoT - Getting Started with Sphere
 Azure Sphere is a secured, high-level application platform with built-in communication and security features for internet-connected devices. It comprises an Azure Sphere microcontroller unit (MCU), tools and an SDK for developing applications, and the Azure Sphere Security Service, through which applications can securely connect to the cloud and web.
 
 If you were looking for Raspberry Pi, go [here](https://github.com/jasonerrett/AzureIoT_HelloRpi)
@@ -9,17 +9,28 @@ If you were looking for Raspberry Pi, go [here](https://github.com/jasonerrett/A
 - Open Github Desktop, click File -> Clone Repository -> Url tab -> Paste the url into the box -> specify the local folder to clone into -> hit **'Clone'**
 - If you'd like more information... [Github Tutorial](https://lab.github.com/githubtraining/paths/first-day-on-github)
 
+## Tools
+These are not all required.  I will show some of them in the video, but if you have tools you prefer that work just fine, by all means use what you like.  All of these are freely available.
+- [Azure Device Explorer](https://github.com/Azure/azure-iot-sdk-csharp/releases/download/2019-1-4/SetupDeviceExplorer.msi) (Helpful if using IoT Hub)
+- [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/)
+- [VSCode](https://code.visualstudio.com/Download) is a cross-platform IDE
+
 ## Getting Started with Azure Sphere
 - Hardware Overview
-- Optional Peripherals
-- Software / Setup
-- Additional Resources
+    - GPIO pins are your gateway to interacting with the "real" world.  This site, [MT3620 Dev Board User Guide](https://docs.microsoft.com/en-us/azure-sphere/hardware/mt3620-user-guide), has a good explanation of the hardware layout and pins
+    - Azure Docs guide for [Using GPIOs on Azure Sphere](https://docs.microsoft.com/en-us/azure-sphere/app-development/gpio)
+- Common starter dev/test Peripheral
+    - [Grove Starter Kit](https://www.seeedstudio.com/Grove-Starter-Kit-for-Azure-Sphere-MT3620-Development-Kit.html)
+    - [Grove Shield Library on GitHub](https://github.com/Seeed-Studio/MT3620_Grove_Shield)
+- Setup
+    - [Getting Started with Azure Sphere](https://docs.microsoft.com/en-us/azure-sphere/)
 
 ## Connecting the Sphere Devkit to Azure IoT Central
+- [Set up Azure IoT Central to work with Azure Sphere](https://docs.microsoft.com/en-us/azure-sphere/app-development/setup-iot-central)
+- [Run the sample with an IoT Central](https://github.com/Azure/azure-sphere-samples/blob/master/Samples/AzureIoT/IoTCentral.md)
 
 ## Connecting the Sphere Devkit to Azure IoT Hub
-
-## Real-time Processing / Real-time Action
+- [Run the sample with an IoT Hub](https://github.com/Azure/azure-sphere-samples/blob/master/Samples/AzureIoT/IoTHub.md)
 
 ## Azure Services Common in IoT Architectures
 - [Example Architecture Diagram](images/AzureIoTArchitecture.png
@@ -39,7 +50,7 @@ If you were looking for Raspberry Pi, go [here](https://github.com/jasonerrett/A
 - Integration & Visualization
     - [Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview)
     - [Power BI](https://docs.microsoft.com/en-us/power-bi/power-bi-overview)
-- Disconnected Scenarios
+- Disconnected Scenarios (Very cool stuff)
     - [IoT Edge](https://docs.microsoft.com/en-us/azure/iot-edge/about-iot-edge)
     - [Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-intro)
 - Artification Intelligence
@@ -67,7 +78,16 @@ If you were looking for Raspberry Pi, go [here](https://github.com/jasonerrett/A
 - [Microsoft Professional Certification Programs](https://www.edx.org/course/?type=Professional%20Certificate&school=Microsoft%3A%20Microsoft) *Note: free if just learning, but there is a fee to receive certification upon completion*
 - [Other edX Courses](https://www.edx.org/course?search_query=Azure)
 
-
+## Other Useful Stuff
+- [Anomaly Detection in Azure Stream Analytics](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-machine-learning-anomaly-detection)
+- [Custom Vision at the Edge Walkthrough](https://docs.microsoft.com/en-us/azure/iot-edge/tutorial-deploy-custom-vision)
+- [Container Support in Azure Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-container-support)
+- [Using the MXChip IoT DevKit](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-door-monitor)
+- [Azure IoT Security](https://azure.microsoft.com/en-us/overview/iot/security/)
+- [Azure Security Center for IoT](https://docs.microsoft.com/en-us/azure/asc-for-iot/overview)
+- [IoT Security Architecture](https://docs.microsoft.com/en-us/azure/iot-fundamentals/iot-security-architecture)
+- [IoT Security Best Practices](https://docs.microsoft.com/en-us/azure/iot-fundamentals/iot-security-best-practices)
+- [Secure Deployment of IoT](https://docs.microsoft.com/en-us/azure/iot-fundamentals/iot-security-deployment)
 
 
 
