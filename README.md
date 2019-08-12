@@ -19,7 +19,8 @@
 ## Real-time Processing / Real-time Action
 
 ## Azure Services Common in IoT Architectures
-- Example Architecture Diagram
+- [Example Architecture Diagram](images/AzureIoTArchitecture.png
+)
 - Device Registration / Ingestion
     - [IoT Hub](https://docs.microsoft.com/en-us/azure/iot-hub/about-iot-hub)
     - [IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/overview-iot-central) *Note: also has visualization, analytics, etc.*
