@@ -1,4 +1,7 @@
-# AzureIoT_HelloSphere
+# AzureIoT - Getting Started with Sphere
+Azure Sphere is a secured, high-level application platform with built-in communication and security features for internet-connected devices. It comprises an Azure Sphere microcontroller unit (MCU), tools and an SDK for developing applications, and the Azure Sphere Security Service, through which applications can securely connect to the cloud and web.
+
+If you were looking for Raspberry Pi, go [here](https://github.com/jasonerrett/AzureIoT_HelloRpi)
 
 ## Using Github
 - [Download Github Desktop](https://desktop.github.com/)
