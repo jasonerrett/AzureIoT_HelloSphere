@@ -12,8 +12,7 @@ If you were looking for Raspberry Pi, go [here](https://github.com/jasonerrett/A
 ## Tools
 These are not all required.  I will show some of them in the video, but if you have tools you prefer that work just fine, by all means use what you like.  All of these are freely available.
 - [Azure Device Explorer](https://github.com/Azure/azure-iot-sdk-csharp/releases/download/2019-1-4/SetupDeviceExplorer.msi) (Helpful if using IoT Hub)
-- [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/)
-- [VSCode](https://code.visualstudio.com/Download) is a cross-platform IDE
+- Visual Studio 2019 Enterprise, Professional, or (free) [Community Edition](https://visualstudio.microsoft.com/vs/community/) 16.04 or later; or Visual Studio 2017 version 15.9 or later. To install Visual Studio, select the edition to install and then run the installer. You can install any workloads, or none.
 
 ## Getting Started with Azure Sphere
 - Hardware Overview
@@ -24,6 +23,13 @@ These are not all required.  I will show some of them in the video, but if you h
     - [Grove Shield Library on GitHub](https://github.com/Seeed-Studio/MT3620_Grove_Shield)
 - Setup
     - [Getting Started with Azure Sphere](https://docs.microsoft.com/en-us/azure-sphere/)
+    - High-level Steps:
+        1. Install Drivers
+        2. Install the Azure Sphere SDK
+        3. Update the Azure Sphere OS
+        4. Set up an account for Azure Sphere
+        5. Claim your device in the Azure Sphere tenant
+        6. Go through Quickstarts
 
 ## Connecting the Sphere Devkit to Azure IoT Central
 - [Set up Azure IoT Central to work with Azure Sphere](https://docs.microsoft.com/en-us/azure-sphere/app-development/setup-iot-central)
